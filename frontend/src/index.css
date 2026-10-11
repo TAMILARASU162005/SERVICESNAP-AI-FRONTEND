@@ -1,0 +1,51 @@
+@import "tailwindcss";
+
+@layer components {
+  .input {
+    @apply w-full rounded-xl border border-slate-200 bg-slate-50 px-3 py-3 text-sm font-medium text-slate-800 outline-none transition placeholder:text-slate-400 focus:border-violet-400 focus:bg-white focus:ring-4 focus:ring-violet-500/10;
+  }
+}
+
+.futuristic-ui .bg-white {
+  background-color: rgba(10, 17, 38, 0.78);
+}
+
+.futuristic-ui .bg-slate-50 {
+  background-color: rgba(15, 23, 42, 0.72);
+}
+
+.futuristic-ui .bg-slate-100 {
+  background-color: rgba(30, 41, 59, 0.78);
+}
+
+.futuristic-ui .border-slate-200,
+.futuristic-ui .border-slate-100 {
+  border-color: rgba(100, 116, 139, 0.28);
+}
+
+.futuristic-ui .text-slate-900,
+.futuristic-ui .text-slate-800,
+.futuristic-ui .text-slate-700 {
+  color: #e2e8f0;
+}
+
+.futuristic-ui .text-slate-600,
+.futuristic-ui .text-slate-500 {
+  color: #94a3b8;
+}
+
+.futuristic-ui .text-slate-400 {
+  color: #64748b;
+}
+
+.futuristic-ui .input {
+  border-color: rgba(100, 116, 139, 0.4);
+  background: rgba(15, 23, 42, 0.85);
+  color: #e2e8f0;
+}
+
+.futuristic-ui .input:focus {
+  border-color: rgba(34, 211, 238, 0.75);
+  background: rgba(15, 23, 42, 0.98);
+  --tw-ring-color: rgba(34, 211, 238, 0.15);
+}
